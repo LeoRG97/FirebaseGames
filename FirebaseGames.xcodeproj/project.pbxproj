@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7A33A352BCEF00300A71A4E /* FirebaseGamesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A33A342BCEF00300A71A4E /* FirebaseGamesApp.swift */; };
+		A7A33A372BCEF00300A71A4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A33A362BCEF00300A71A4E /* ContentView.swift */; };
+		A7A33A392BCEF00400A71A4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A33A382BCEF00400A71A4E /* Assets.xcassets */; };
+		A7A33A3C2BCEF00400A71A4E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A33A3B2BCEF00400A71A4E /* Preview Assets.xcassets */; };
+		A7A33A452BCEF06700A71A4E /* NavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A33A442BCEF06700A71A4E /* NavBar.swift */; };
+		A7A33A472BCEF06F00A71A4E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A33A462BCEF06F00A71A4E /* CardView.swift */; };
+		A7A33A492BCEF07900A71A4E /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A33A482BCEF07900A71A4E /* ButtonView.swift */; };
+		A7A33A4B2BCEF31300A71A4E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A33A4A2BCEF31300A71A4E /* Home.swift */; };
+		A7A33A4D2BCF08AD00A71A4E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A7A33A4C2BCF08AD00A71A4E /* GoogleService-Info.plist */; };
+		A7A33A502BCF095700A71A4E /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A7A33A4F2BCF095700A71A4E /* FirebaseAuth */; };
+		A7A33A522BCF095700A71A4E /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = A7A33A512BCF095700A71A4E /* FirebaseFirestore */; };
+		A7A33A542BCF095700A71A4E /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A7A33A532BCF095700A71A4E /* FirebaseStorage */; };
+		A7A33A562BCF0AD400A71A4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A33A552BCF0AD400A71A4E /* AppDelegate.swift */; };
+		A7A33A592BCF0D1300A71A4E /* FirebaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A33A582BCF0D1300A71A4E /* FirebaseViewModel.swift */; };
+		A7A33A5B2BCF0E5E00A71A4E /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A33A5A2BCF0E5E00A71A4E /* Login.swift */; };
+		A7A33A5D2BCF618400A71A4E /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A33A5C2BCF618400A71A4E /* AddView.swift */; };
+		A7A33A5F2BCF68D800A71A4E /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A33A5E2BCF68D800A71A4E /* ImagePicker.swift */; };
+		A7A33A622BD0482B00A71A4E /* remixicon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7A33A612BD0482B00A71A4E /* remixicon.ttf */; };
+		A7A33A662BD05AEB00A71A4E /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A33A652BD05AEB00A71A4E /* Game.swift */; };
+		A7A33A682BD05E1E00A71A4E /* CoverViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A33A672BD05E1E00A71A4E /* CoverViewModel.swift */; };
+		A7A33A6A2BD05F1100A71A4E /* ImageFirebase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A33A692BD05F1100A71A4E /* ImageFirebase.swift */; };
+		A7A33A6C2BD060D700A71A4E /* GameListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A33A6B2BD060D700A71A4E /* GameListView.swift */; };
+		A7A33A6E2BD06BE300A71A4E /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A33A6D2BD06BE300A71A4E /* EditView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7A33A312BCEF00300A71A4E /* FirebaseGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A33A342BCEF00300A71A4E /* FirebaseGamesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseGamesApp.swift; sourceTree = "<group>"; };
+		A7A33A362BCEF00300A71A4E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A7A33A382BCEF00400A71A4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7A33A3B2BCEF00400A71A4E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A7A33A442BCEF06700A71A4E /* NavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBar.swift; sourceTree = "<group>"; };
+		A7A33A462BCEF06F00A71A4E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A7A33A482BCEF07900A71A4E /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		A7A33A4A2BCEF31300A71A4E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		A7A33A4C2BCF08AD00A71A4E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A7A33A552BCF0AD400A71A4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7A33A582BCF0D1300A71A4E /* FirebaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseViewModel.swift; sourceTree = "<group>"; };
+		A7A33A5A2BCF0E5E00A71A4E /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		A7A33A5C2BCF618400A71A4E /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		A7A33A5E2BCF68D800A71A4E /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		A7A33A612BD0482B00A71A4E /* remixicon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = remixicon.ttf; sourceTree = "<group>"; };
+		A7A33A632BD048CB00A71A4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A7A33A652BD05AEB00A71A4E /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		A7A33A672BD05E1E00A71A4E /* CoverViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverViewModel.swift; sourceTree = "<group>"; };
+		A7A33A692BD05F1100A71A4E /* ImageFirebase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFirebase.swift; sourceTree = "<group>"; };
+		A7A33A6B2BD060D700A71A4E /* GameListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListView.swift; sourceTree = "<group>"; };
+		A7A33A6D2BD06BE300A71A4E /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7A33A2E2BCEF00300A71A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A33A502BCF095700A71A4E /* FirebaseAuth in Frameworks */,
+				A7A33A522BCF095700A71A4E /* FirebaseFirestore in Frameworks */,
+				A7A33A542BCF095700A71A4E /* FirebaseStorage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7A33A282BCEF00300A71A4E = {
+			isa = PBXGroup;
+			children = (
+				A7A33A332BCEF00300A71A4E /* FirebaseGames */,
+				A7A33A322BCEF00300A71A4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7A33A322BCEF00300A71A4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7A33A312BCEF00300A71A4E /* FirebaseGames.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7A33A332BCEF00300A71A4E /* FirebaseGames */ = {
+			isa = PBXGroup;
+			children = (
+				A7A33A642BD05ADD00A71A4E /* model */,
+				A7A33A632BD048CB00A71A4E /* Info.plist */,
+				A7A33A602BD0480800A71A4E /* fonts */,
+				A7A33A572BCF0D0200A71A4E /* viewModel */,
+				A7A33A422BCEF02400A71A4E /* view */,
+				A7A33A342BCEF00300A71A4E /* FirebaseGamesApp.swift */,
+				A7A33A362BCEF00300A71A4E /* ContentView.swift */,
+				A7A33A382BCEF00400A71A4E /* Assets.xcassets */,
+				A7A33A4C2BCF08AD00A71A4E /* GoogleService-Info.plist */,
+				A7A33A3A2BCEF00400A71A4E /* Preview Content */,
+				A7A33A552BCF0AD400A71A4E /* AppDelegate.swift */,
+			);
+			path = FirebaseGames;
+			sourceTree = "<group>";
+		};
+		A7A33A3A2BCEF00400A71A4E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A7A33A3B2BCEF00400A71A4E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A7A33A422BCEF02400A71A4E /* view */ = {
+			isa = PBXGroup;
+			children = (
+				A7A33A432BCEF02C00A71A4E /* components */,
+				A7A33A4A2BCEF31300A71A4E /* Home.swift */,
+				A7A33A5A2BCF0E5E00A71A4E /* Login.swift */,
+				A7A33A5C2BCF618400A71A4E /* AddView.swift */,
+				A7A33A6D2BD06BE300A71A4E /* EditView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		A7A33A432BCEF02C00A71A4E /* components */ = {
+			isa = PBXGroup;
+			children = (
+				A7A33A442BCEF06700A71A4E /* NavBar.swift */,
+				A7A33A462BCEF06F00A71A4E /* CardView.swift */,
+				A7A33A482BCEF07900A71A4E /* ButtonView.swift */,
+				A7A33A5E2BCF68D800A71A4E /* ImagePicker.swift */,
+				A7A33A692BD05F1100A71A4E /* ImageFirebase.swift */,
+				A7A33A6B2BD060D700A71A4E /* GameListView.swift */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		A7A33A572BCF0D0200A71A4E /* viewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A7A33A582BCF0D1300A71A4E /* FirebaseViewModel.swift */,
+				A7A33A672BD05E1E00A71A4E /* CoverViewModel.swift */,
+			);
+			path = viewModel;
+			sourceTree = "<group>";
+		};
+		A7A33A602BD0480800A71A4E /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A7A33A612BD0482B00A71A4E /* remixicon.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		A7A33A642BD05ADD00A71A4E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A7A33A652BD05AEB00A71A4E /* Game.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7A33A302BCEF00300A71A4E /* FirebaseGames */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A33A3F2BCEF00400A71A4E /* Build configuration list for PBXNativeTarget "FirebaseGames" */;
+			buildPhases = (
+				A7A33A2D2BCEF00300A71A4E /* Sources */,
+				A7A33A2E2BCEF00300A71A4E /* Frameworks */,
+				A7A33A2F2BCEF00300A71A4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FirebaseGames;
+			packageProductDependencies = (
+				A7A33A4F2BCF095700A71A4E /* FirebaseAuth */,
+				A7A33A512BCF095700A71A4E /* FirebaseFirestore */,
+				A7A33A532BCF095700A71A4E /* FirebaseStorage */,
+			);
+			productName = FirebaseGames;
+			productReference = A7A33A312BCEF00300A71A4E /* FirebaseGames.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7A33A292BCEF00300A71A4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A7A33A302BCEF00300A71A4E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = A7A33A2C2BCEF00300A71A4E /* Build configuration list for PBXProject "FirebaseGames" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7A33A282BCEF00300A71A4E;
+			packageReferences = (
+				A7A33A4E2BCF095700A71A4E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = A7A33A322BCEF00300A71A4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7A33A302BCEF00300A71A4E /* FirebaseGames */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7A33A2F2BCEF00300A71A4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A33A3C2BCEF00400A71A4E /* Preview Assets.xcassets in Resources */,
+				A7A33A392BCEF00400A71A4E /* Assets.xcassets in Resources */,
+				A7A33A4D2BCF08AD00A71A4E /* GoogleService-Info.plist in Resources */,
+				A7A33A622BD0482B00A71A4E /* remixicon.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7A33A2D2BCEF00300A71A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A33A372BCEF00300A71A4E /* ContentView.swift in Sources */,
+				A7A33A352BCEF00300A71A4E /* FirebaseGamesApp.swift in Sources */,
+				A7A33A5D2BCF618400A71A4E /* AddView.swift in Sources */,
+				A7A33A682BD05E1E00A71A4E /* CoverViewModel.swift in Sources */,
+				A7A33A6A2BD05F1100A71A4E /* ImageFirebase.swift in Sources */,
+				A7A33A6C2BD060D700A71A4E /* GameListView.swift in Sources */,
+				A7A33A492BCEF07900A71A4E /* ButtonView.swift in Sources */,
+				A7A33A472BCEF06F00A71A4E /* CardView.swift in Sources */,
+				A7A33A562BCF0AD400A71A4E /* AppDelegate.swift in Sources */,
+				A7A33A4B2BCEF31300A71A4E /* Home.swift in Sources */,
+				A7A33A6E2BD06BE300A71A4E /* EditView.swift in Sources */,
+				A7A33A662BD05AEB00A71A4E /* Game.swift in Sources */,
+				A7A33A5F2BCF68D800A71A4E /* ImagePicker.swift in Sources */,
+				A7A33A5B2BCF0E5E00A71A4E /* Login.swift in Sources */,
+				A7A33A452BCEF06700A71A4E /* NavBar.swift in Sources */,
+				A7A33A592BCF0D1300A71A4E /* FirebaseViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A7A33A3D2BCEF00400A71A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7A33A3E2BCEF00400A71A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7A33A402BCEF00400A71A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FirebaseGames/Preview Content\"";
+				DEVELOPMENT_TEAM = H963Q7AA95;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FirebaseGames/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Se necesita su permiso para usar la cámara";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Se necesita su permiso para acceder a la galería de imágenes";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonardo.FirebaseGames;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7A33A412BCEF00400A71A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FirebaseGames/Preview Content\"";
+				DEVELOPMENT_TEAM = H963Q7AA95;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FirebaseGames/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Se necesita su permiso para usar la cámara";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Se necesita su permiso para acceder a la galería de imágenes";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leonardo.FirebaseGames;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7A33A2C2BCEF00300A71A4E /* Build configuration list for PBXProject "FirebaseGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A33A3D2BCEF00400A71A4E /* Debug */,
+				A7A33A3E2BCEF00400A71A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7A33A3F2BCEF00400A71A4E /* Build configuration list for PBXNativeTarget "FirebaseGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A33A402BCEF00400A71A4E /* Debug */,
+				A7A33A412BCEF00400A71A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A7A33A4E2BCF095700A71A4E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.24.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A7A33A4F2BCF095700A71A4E /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7A33A4E2BCF095700A71A4E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		A7A33A512BCF095700A71A4E /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7A33A4E2BCF095700A71A4E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		A7A33A532BCF095700A71A4E /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A7A33A4E2BCF095700A71A4E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A7A33A292BCEF00300A71A4E /* Project object */;
+}
